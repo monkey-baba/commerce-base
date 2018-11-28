@@ -1,4 +1,4 @@
-package com.keyrus.oms.common.dto;
+package com.mbb.commerce.common.dto;
 
 import lombok.Data;
 
