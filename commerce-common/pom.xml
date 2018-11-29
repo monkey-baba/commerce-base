@@ -8,10 +8,10 @@
     <groupId>com.mbb</groupId>
     <artifactId>commerce-cloud-base</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <relativePath/>
   </parent>
 
   <artifactId>commerce-common</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
 
