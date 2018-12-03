@@ -17,7 +17,7 @@
   <name>Commerce Cloud App Parent</name>
 
 
-  <dependencyManagement>
+  <!--<dependencyManagement>-->
     <dependencies>
       <!-- Dubbo Spring Boot Starter -->
       <dependency>
@@ -29,7 +29,36 @@
         <groupId>com.alibaba</groupId>
         <artifactId>dubbo</artifactId>
       </dependency>
+
+      <!-- Spring Cloud Registry -->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-consul-discovery</artifactId>
+      </dependency>
+
+      <!-- Spring Cloud Ribbon -->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+      </dependency>
+
+      <!-- Spring Cloud Hystrix -->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+      </dependency>
+
+      <!-- Spring Cloud Config -->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-config-client</artifactId>
+      </dependency>
+
     </dependencies>
-  </dependencyManagement>
+  <!--</dependencyManagement>-->
 
 </project>
