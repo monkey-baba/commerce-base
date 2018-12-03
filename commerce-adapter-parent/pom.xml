@@ -15,4 +15,20 @@
 
   <name>Commerce Cloud Adapter Parent</name>
 
+  <dependencies>
+    <!-- Bean Annotation -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>dubbo</artifactId>
+    </dependency>
+
+     <!-- Dubbo Consume Annotation-->
+
+  </dependencies>
+
 </project>
