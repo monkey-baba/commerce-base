@@ -16,4 +16,20 @@
 
   <name>Commerce Cloud App Parent</name>
 
+
+  <dependencyManagement>
+    <dependencies>
+      <!-- Dubbo Spring Boot Starter -->
+      <dependency>
+        <groupId>com.alibaba.boot</groupId>
+        <artifactId>dubbo-spring-boot-starter</artifactId>
+      </dependency>
+      <!-- Dubbo Dependency -->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>dubbo</artifactId>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
 </project>

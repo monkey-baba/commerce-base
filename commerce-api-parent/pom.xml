@@ -22,24 +22,6 @@
 
   <dependencies>
 
-    <!-- Feign Consume -->
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-openfeign-core</artifactId>
-    </dependency>
-
-    <!-- Spring Web Annotation -->
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-web</artifactId>
-    </dependency>
-
-    <!-- Dubbo Consume -->
-    <dependency>
-      <groupId>com.alibaba</groupId>
-      <artifactId>dubbo</artifactId>
-    </dependency>
-
     <!-- Common Dto Dependency -->
     <dependency>
       <groupId>com.mbb</groupId>
@@ -47,8 +29,30 @@
       <version>${project.version}</version>
     </dependency>
 
+
   </dependencies>
 
+  <dependencyManagement>
+    <dependencies>
+      <!-- Feign Consume -->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-openfeign-core</artifactId>
+      </dependency>
+
+      <!-- Spring Web Annotation -->
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+      </dependency>
+
+      <!-- Dubbo Consume -->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>dubbo</artifactId>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
 
 
