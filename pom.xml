@@ -5,7 +5,7 @@
 
   <artifactId>commerce-cloud-base</artifactId>
   <packaging>pom</packaging>
-  <version>1.0.0-SNAPSHOT</version>
+
 
   <parent>
     <groupId>com.mbb</groupId>
@@ -16,11 +16,11 @@
   <name>Commerce Cloud Base</name>
 
   <modules>
-    <module>commerce-adapter-parent</module>
-    <module>commerce-api-parent</module>
-    <module>commerce-app-parent</module>
-    <module>commerce-biz-parent</module>
+    <!--<module>commerce-adapter-parent</module>-->
+    <!--<module>commerce-api-parent</module>-->
+    <!--<module>commerce-app-parent</module>-->
+    <!--<module>commerce-biz-parent</module>-->
     <module>commerce-common</module>
-    <module>commerce-rest-parent</module>
+    <!--<module>commerce-rest-parent</module>-->
   </modules>
 </project>
