@@ -1,4 +1,4 @@
-package com.mbb.commerce.common.dto;
+package com.mbb.common.dto;
 
 import lombok.Data;
 
